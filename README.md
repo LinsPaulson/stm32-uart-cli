@@ -23,8 +23,8 @@ ________________________________________________________________________________
 📁 Project Structure
 
 ├── src
-│   ├── main.c            # Application code
-│   └── usart.c/h         # USART init & TX routines
+│   ├── main.c            
+│   └── usart.c/h         
 ├── inc
 │   └── (header files)
 ├── README.md
@@ -44,9 +44,9 @@ ________________________________________________________________________________
 🖥️ Serial Terminal Setup (RealTerm)
 
 1. Install RealTerm from its official source.
-2. Open RealTerm → *Port* tab
+2. Open RealTerm → **Port** tab
 3. Select the COM port corresponding to the Nucleo board
-4. Baud rate: **115200** (or the value configured in code)
+4. Baud rate: **9600** (or the value configured in code)
 5. Set Data Bits: 8, Parity: None, Stop Bits: 1
 6. Click **Open** to start monitoring incoming data
 
